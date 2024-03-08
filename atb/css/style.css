@@ -1,0 +1,48 @@
+/* Stylesheet untuk penyesuaian tambahan */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("/atb/img/bg1.jpeg");
+    background-size: cover; /* agar gambar mengisi seluruh halaman */
+    background-position: center; /* agar gambar selalu ditengah */
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #303952;
+    text-align: center;
+    font-family: 'poppins' sans-serif;
+    font-family: 'comic sans ms';
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'poppins' sans-serif;
+}
+.login-container button {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #303952;
+
+}
+form {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    font-family: 'poppins' sans-serif;
+}
